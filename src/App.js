@@ -1,12 +1,10 @@
 import React from 'react';
-
 import Header from './components/Header';
 import AddedFeatures from './components/AddedFeatures';
 import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 import { connect } from 'react-redux';
-import { addNewFeature, deleteFeature } from './actions';
- 
+import { addNewFeature, deleteFeature } from './actions'; 
 
 const App = (props) => {
 
